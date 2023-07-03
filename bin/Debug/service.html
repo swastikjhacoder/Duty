@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+	<head>
+		<title>
+			Duty: Services
+		</title>
+		<style>
+		table{
+		border-collapse:collapse;
+		width:100%;
+		}
+		td,th{
+		text-align:left;
+		padding:8px;
+		border-bottom:2px solid #ddd;
+		}
+		th
+		{
+			background-color:#ff00ff;
+			}
+		tr:nth-child(even)
+		{
+			background-color:#f2f2f2;
+		}
+		tr:hover
+		{
+			background-color:#fff5f5;
+		}
+		</style>
+
+	</head>
+	<body onload="showService()">
+		<h2>GET SERVICE INFO</h2><br>
+		<script>
+		function showService()
+		{
+			
+			var xmlDoc=new ActiveXObject("MSXML.DOMDocument");
+			xmlDoc.async="false";
+			xmlDoc.load("Service.xml");
+			var customers=xmlDoc.documentElement;
+			var customer=customers.childNodes(0);
+			var rows=customers.childNodes.length;
+			var cols=customer.childNodes.length;
+			//Document.getElementById("demo").innerHTML=;
+			
+			
+			
+			
+			var x=document.createElement("TABLE");
+			x.setAttribute("id","myTable");
+			document.body.appendChild(x);
+			var y,z,t,i,j,h;
+			y=x.insertRow(0);
+			z=y.insertCell(0);
+			z.innerHTML="Customer Id";
+			z=y.insertCell(1);
+			z.innerHTML="Customer name";
+			z=y.insertCell(2);
+			z.innerHTML="Product name";
+			z=y.insertCell(3)
+			z.innerHTML="Date of Instalation"
+			z=y.insertCell(4)
+			z.innerHTML="Date of Service"
+			z=y.insertCell(5)
+			z.innerHTML="Customer Address"
+			z=y.insertCell(6)
+			z.innerHTML="Phone Number"
+			z=y.insertCell(7)
+			z.innerHTML="Serviced"
+			z=y.insertCell(8)
+			z.innerHTML="Feedback"
+			for(i=0;i<rows;i++){
+			
+			//y=document.createElement("TR");
+			//y.setAttribute("id","myTR");
+			//document.getElementById("myTable").appendChild(y);
+			customer=customers.childNodes(i);
+			y=x.insertRow(i+1)
+			for(j=0;j<cols;j++){
+			//z=document.createElement("TD");
+			//t=document.createTextNode(customer.childNodes[j].text);
+			
+			z=y.insertCell(j)
+			z.innerHTML=customer.childNodes[j].text;
+			//z.appendChild(t);
+			
+			//document.getElementById("myTR").appendChild(z);
+			}
+			
+			}
+			
+			
+		}
+		</script>
+	</body>
+</html>
+	
+	

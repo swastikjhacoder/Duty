@@ -1,0 +1,65 @@
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Duty.exe.config
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.exe
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.xml
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.pdb
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Duty.exe
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Duty.pdb
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Duty.xml
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\ESAR Controls.dll
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\office.dll
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\office.xml
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.AddUser.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.Form1.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.loadCompany.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.LoginForm.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.Main2.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.Maintain_customer.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.Maintain_Products.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.MaintainUser.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.company.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.newUser.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.Service.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.Show_Serviced.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.UsersForm.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.Resources.resources
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.vbproj.GenerateResource.Cache
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.Form2.resources
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Duty.exe.manifest
+D:\Rishi\Kuchina Design\Duty\Duty\bin\Debug\Duty.application
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.exe.manifest
+D:\Rishi\Kuchina Design\Duty\Duty\obj\Debug\Duty.application
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Duty.exe.config
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.exe
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.xml
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.pdb
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Duty.exe.manifest
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Duty.application
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Duty.exe
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Duty.pdb
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Duty.xml
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\office.dll
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\bin\Debug\office.xml
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.AddUser.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.Form1.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.Form2.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.loadCompany.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.LoginForm.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.Main2.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.Maintain_customer.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.Maintain_Products.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.MaintainUser.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.company.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.newUser.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.Service.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.Show_Serviced.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.UsersForm.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.Resources.resources
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.vbproj.GenerateResource.Cache
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.exe.manifest
+D:\JOB\ESAR Infotech Pvt. Ltd\Software Development\Duty\Duty\obj\Debug\Duty.application

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{076342A0-6566-411F-BB62-9820406E5A75}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Duty.My.MyApplication</StartupObject>
+    <RootNamespace>Duty</RootNamespace>
+    <AssemblyName>Duty</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Rishi\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/Duty/</UpdateUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Duty.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Duty.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon_G8v_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A404B9D52B1B3E1CB569A4064997D5D2E248512E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Duty_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESAR Controls">
+      <HintPath>..\..\..\..\ESAR Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Class\ClsCompany.vb" />
+    <Compile Include="Class\ClsCustomer.vb" />
+    <Compile Include="Class\ClsProduct.vb" />
+    <Compile Include="Class\Change.vb" />
+    <Compile Include="Class\UserManagerX.vb" />
+    <Compile Include="Controls\DataGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridViewColumnSelector.vb" />
+    <Compile Include="Controls\DirtyTracker\ControlDirtyTracker.vb" />
+    <Compile Include="Controls\DirtyTracker\ControlDirtyTrackerCollection.vb" />
+    <Compile Include="Controls\DirtyTracker\SimpleDirtyTracker.vb" />
+    <Compile Include="Controls\DirtyTracker\SlightlyMoreSophisticatedDirtyTracker.vb" />
+    <Compile Include="Controls\Help Button\HelpButton.Designer.vb" />
+    <Compile Include="Controls\Help Button\HelpButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\AddUser.Designer.vb">
+      <DependentUpon>AddUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\loadCompany.Designer.vb">
+      <DependentUpon>loadCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\loadCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main2.Designer.vb">
+      <DependentUpon>Main2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Maintain customer.designer.vb">
+      <DependentUpon>Maintain customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Maintain customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Maintain Products.designer.vb">
+      <DependentUpon>Maintain Products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Maintain Products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MaintainUser.Designer.vb">
+      <DependentUpon>MaintainUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MaintainUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\company.Designer.vb">
+      <DependentUpon>company.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\company.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\newUser.Designer.vb">
+      <DependentUpon>newUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\newUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Service.designer.vb">
+      <DependentUpon>Service.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Service.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Show_Serviced.designer.vb">
+      <DependentUpon>Show_Serviced.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Show_Serviced.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UsersForm.Designer.vb">
+      <DependentUpon>UsersForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UsersForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\GlobalVariables.vb" />
+    <Compile Include="Modules\mGlobalConnection.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AddUser.resx">
+      <DependentUpon>AddUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\loadCompany.resx">
+      <DependentUpon>loadCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main2.resx">
+      <DependentUpon>Main2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Maintain customer.resx">
+      <DependentUpon>Maintain customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Maintain Products.resx">
+      <DependentUpon>Maintain Products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MaintainUser.resx">
+      <DependentUpon>MaintainUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\company.resx">
+      <DependentUpon>company.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\newUser.resx">
+      <DependentUpon>newUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Service.resx">
+      <DependentUpon>Service.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Show_Serviced.resx">
+      <DependentUpon>Show_Serviced.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UsersForm.resx">
+      <DependentUpon>UsersForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Duty_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls\Help Button\help16.png" />
+    <Content Include="Controls\Help Button\help32.png" />
+    <Content Include="favicon_G8v_icon.ico" />
+    <Content Include="Images\x16\back.png" />
+    <Content Include="Images\x16\backup.png" />
+    <Content Include="Images\x16\browse.png" />
+    <Content Include="Images\x16\calculator.png" />
+    <Content Include="Images\x16\clear.png" />
+    <Content Include="Images\x16\close16.png" />
+    <Content Include="Images\x16\company.png" />
+    <Content Include="Images\x16\Customer Menu.png" />
+    <Content Include="Images\x16\Date.png" />
+    <Content Include="Images\x16\Delete.png" />
+    <Content Include="Images\x16\edit-icon.png" />
+    <Content Include="Images\x16\excel.png" />
+    <Content Include="Images\x16\Exit.png" />
+    <Content Include="Images\x16\favicon.png" />
+    <Content Include="Images\x16\find.png" />
+    <Content Include="Images\x16\help.png" />
+    <Content Include="Images\x16\home.png" />
+    <Content Include="Images\x16\inventory-icon.png" />
+    <Content Include="Images\x16\list.png" />
+    <Content Include="Images\x16\lock_system_screen.png" />
+    <Content Include="Images\x16\logout.png" />
+    <Content Include="Images\x16\master.png" />
+    <Content Include="Images\x16\new.png" />
+    <Content Include="Images\x16\next.png" />
+    <Content Include="Images\x16\next32.png" />
+    <Content Include="Images\x16\notification.png" />
+    <Content Include="Images\x16\ok.png" />
+    <Content Include="Images\x16\open.png" />
+    <Content Include="Images\x16\prev32.png" />
+    <Content Include="Images\x16\printicon.png" />
+    <Content Include="Images\x16\products.png" />
+    <Content Include="Images\x16\refresh_icon.png" />
+    <Content Include="Images\x16\report.png" />
+    <Content Include="Images\x16\request.png" />
+    <Content Include="Images\x16\restore.png" />
+    <Content Include="Images\x16\save.png" />
+    <Content Include="Images\x16\User Secuirity Menu.png" />
+    <Content Include="Images\x16\user-add-icon.png" />
+    <Content Include="Images\x16\user-role-icon.png" />
+    <Content Include="Images\x16\User_Secuirity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

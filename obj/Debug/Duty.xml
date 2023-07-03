@@ -1,0 +1,241 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Duty
+</name>
+</assembly>
+<members>
+<member name="F:Duty.UIControls.Button.HelpButton.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:Duty.UIControls.Button.HelpButton.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:Duty.UIControls.Button.HelpButton.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="P:Duty.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources._Date">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources._Exit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources._new">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources._next">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.back">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.backup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.browse">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.calculator">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.clear">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.close16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.company">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.Customer_Menu">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.edit_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.excel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.favicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.find">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.help">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.help16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.help32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.inventory_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.list">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.lock_system_screen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.master">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.next32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.notification">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.ok">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.open">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.prev32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.printicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.products">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.refresh_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.report">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.request">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.restore">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.user_add_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.user_role_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.User_Secuirity">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Duty.My.Resources.Resources.User_Secuirity_Menu">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Duty.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Duty.UIControls.Button.HelpButton.HelpFile">
+	<summary>
+ Path for the help file (*.chm).
+ Every help buttons will refer to this file.
+ </summary>
+</member><member name="M:Duty.UIControls.Button.HelpButton.#cctor">
+	<summary>
+ static constructor used to instanciate the help provider.
+ </summary>
+</member><member name="P:Duty.UIControls.Button.HelpButton.Style">
+	<summary>
+ How the help file should be displayed
+ and how the Value property should be interpreted.
+ </summary>
+</member><member name="P:Duty.UIControls.Button.HelpButton.Value">
+	<summary>
+ The topic number, file name, or keyword
+ depending on the Style value.
+ If Style equals TopicId and this value is zero,
+ then the chm file is opened without specifying any topic.
+ If Style equals TableOfContents, Find, or Index,
+ this value is ignored.
+ </summary>
+</member><member name="P:Duty.UIControls.Button.HelpButton.BigSize">
+	<summary>
+ true to display the 32x32 icon, false to display the 16x16 one.
+ </summary>
+</member><member name="M:Duty.UIControls.Button.HelpButton.#ctor">
+	<summary>
+ Constructor.
+ </summary>
+</member><member name="T:Duty.UIControls.Button.HelpButton">
+	<summary>
+ A help button linked to the application help file (*.chm).
+ </summary>
+</member>
+</members>
+</doc>
